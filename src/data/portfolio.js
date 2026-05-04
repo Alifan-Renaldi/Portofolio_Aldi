@@ -7,7 +7,7 @@ export const portfolioData = {
     title: "Software Developer & UI/UX Designer",
     description:
       "I build responsive website, optimalization software, and UI/UX components .",
-    imgUrl: `${base}assets/fotoalditerjun.jpg`,
+    imgUrl: `./assets/fotoalditerjun.jpg`,
     resumeUrl: `${base}CV-Alifan-Renaldi-BInggris.pdf`,
     kontakUrl: "https://linkedin.com/in/alifan-renaldi-4b8498180",
   },
