@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 export const portfolioData = {
   hero: {
     greeting: "Hello, I'm",
@@ -5,13 +7,13 @@ export const portfolioData = {
     title: "Software Developer & UI/UX Designer",
     description:
       "I build responsive website, optimalization software, and UI/UX components .",
-    imgUrl: "/assets/fotoalditerjun.jpg", // Replace with your own image in public/assets or URL
-    resumeUrl: "/CV Alifan Renaldi B.Inggris.pdf", // Place your resume in the public folder
+    imgUrl: `${base}assets/fotoalditerjun.jpg`,
+    resumeUrl: `${base}CV-Alifan-Renaldi-BInggris.pdf`,
     kontakUrl: "https://linkedin.com/in/alifan-renaldi-4b8498180",
   },
   about: {
     bio: "I am a passionate Computer Science graduate specialized in the intersection of UI/UX Design, Front-End Development, and System Data Analysis. I thrive on exploring cutting-edge technology and translating complex challenges into user-centric, high-performance solutions. I am ready to deploy my skills for your next big project. I am an Agile Programmer committed to leveraging technology to create meaningful impact. My blend of design sensibility, development expertise, and data analysis skills allows me to own the solution end-to-end—from concept to deployment. I am seeking opportunities to collaborate and contribute to your most challenging innovations. Let's discuss how I can elevate your team!",
-    image: "/assets/fotoalditerjun.jpg", // Default placeholder
+    image: `${base}assets/fotoalditerjun.jpg`,
   },
   skills: [
     {
@@ -92,21 +94,21 @@ export const portfolioData = {
   projects: [
     {
       title: "Dimsum MBOK",
-      images: ["/assets/Dimsum 1.png", "/assets/Dimsum 2.png"],
+      images: [`${base}assets/Dimsum-1.png`, `${base}assets/Dimsum-2.png`],
       description:
         "An e-commerce platform specifically designed to empower culinary MSMEs, particularly in the dim sum industry. This project delivers an optimal shopping experience through end-to-end transaction features, structured product catalog management, and a highly dynamic and interactive User Interface (UI).",
       tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     },
     {
       title: "SMMA (System Managemen Aset) ",
-      images: ["/assets/API SMMA.png", "/assets/postmanapi.png"], // No images provided yet
+      images: [`${base}assets/API-SMMA.png`, `${base}assets/postmanapi.png`],
       description:
         "Architected a scalable Laravel RESTful API to facilitate smooth data flow to the frontend, ensuring accurate, real-time tracking and dynamic rendering of user-managed assets.",
       tags: ["PHP", "Laravel", "Postman"],
     },
     {
       title: "Akreditasi One Data",
-      images: ["/assets/magang 1.png", "/assets/magang 2.png", "/assets/magang 3.png"], // No images provided yet
+      images: [`${base}assets/magang-1.png`, `${base}assets/magang-2.png`, `${base}assets/magang-3.png`],
       description:
         "A SaaS application that leverages generative AI to help creators automate content writing and image generation with a drag-and-drop interface.",
       tags: ["Laravel", "PHP", "Postman", "Boostrap"],
@@ -115,24 +117,24 @@ export const portfolioData = {
   certifications: [
     {
       title: "Junior Web Developer",
-      image: "/assets/Sertifikat BNSP .jpg",
+      image: `${base}assets/Sertifikat-BNSP.jpg`,
       issuer: "Komdigi",
     },
     {
       title: "Fullstack Developer",
-      image: "/assets/Sertifikat MSIB.jpg",
+      image: `${base}assets/Sertifikat-MSIB.jpg`,
       issuer: "MSIB",
     },
   ],
   courses: [
     {
       title: "AWS Cloud dan Gen AI",
-      image: "/assets/AWS Cloud AI.jpg",
+      image: `${base}assets/AWS-Cloud-AI.jpg`,
       issuer: "AWS",
     },
     {
       title: "UI/UX Design Fundamentals",
-      image: "/assets/UI UX KMMI.jpg",
+      image: `${base}assets/UI-UX-KMMI.jpg`,
       issuer: "Google",
     },
   ],
