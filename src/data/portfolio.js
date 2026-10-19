@@ -8,7 +8,7 @@ export const portfolioData = {
     description:
       "I build responsive website, optimalization software, and UI/UX components .",
     imgUrl: `${base}assets/fotoalditerjun.jpg`,
-    resumeUrl: `${base}CV-Alifan-Renaldi-BInggris.pdf`,
+    resumeUrl: `${base}CV Alifan Renaldi-2.pdf`,
     kontakUrl: "https://linkedin.com/in/alifan-renaldi-4b8498180",
   },
   about: {
