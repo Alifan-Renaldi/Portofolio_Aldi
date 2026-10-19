@@ -90,6 +90,12 @@ export const portfolioData = {
       period: "Jul 2023 - Aug 2023",
       description: "Delivered a comprehensive WordPress solution for Andanan Batik Lampung by integrating UI/UX designs, ensuring high-quality performance through rigorous testing, and empowering the client team via effective technical communication and user training.",
     },
+    {
+      role: "Fullstack developer",
+      company: "PT Skarsindo Sejahtera Harapan",
+      period: "Feb 2026 - Now",
+      description: "Merancang dan mengembangkan platform internal Siapp Sistem Hub (SSH) berbasis PHP, JavaScript, dan MySQL yang mengintegrasikan aktivitas lintas divisi serta data armada secara terpusat, sekaligus mengoptimalkan API, memetakan proses bisnis, menyusun dokumentasi teknis, dan memastikan operasional jaringan serta dukungan hardware-software berjalan lancar dengan downtime minimal.",
+    },
   ],
   projects: [
     {
